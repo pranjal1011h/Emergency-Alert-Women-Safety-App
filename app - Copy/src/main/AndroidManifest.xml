@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.safetyapp">
+    <!-- Location Permissions -->
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- SMS Permission -->
+    <uses-permission android:name="android.permission.SEND_SMS" /> <!-- Call Permission -->
+    <uses-permission android:name="android.permission.CALL_PHONE" /> <!-- Audio Recording Permission -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" /> <!-- Android 13+ Audio Access -->
+    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" /> <!-- Telephony Feature -->
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Safety App"
+        android:requestLegacyExternalStorage="true"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Safetyapp">
+
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".ContactActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> <!-- ✅ Contact Activity -->
+
+
+
+    </application>
+
+</manifest>
