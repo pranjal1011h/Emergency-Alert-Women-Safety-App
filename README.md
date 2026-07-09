@@ -1,44 +1,48 @@
-# Emergency-Alert-Women-Safety-App
+# Emergency Alert Women Safety App
 
 ## 📱 Overview
-Emergency Alert system is an Android-based Women Safety Application developed. It helps users quickly alert trusted contacts during emergencies using multiple safety features such as SOS alerts, live location sharing, fingerprint authentication, and shake detection.
+Emergency Alert Women Safety App is an Android application designed to improve women's safety by providing quick emergency assistance.
 
 ## ✨ Features
-
-- 🚨 One-Tap SOS Alert
-- 📍 Live GPS Location Sharing
-- 📲 SMS Alert to Emergency Contacts
-- ☎️ Automatic Emergency Calling
-- 👆 Fingerprint Authentication
-- 📳 Shake Detection to Trigger SOS
-- 🔊 Emergency Siren
-- 🎤 Audio Recording During Emergency
-- 🔋 Battery Level Detection
-- ☁️ Firebase Realtime Database Integration
-- 👥 Emergency Contact Management
-- 🚓 Quick Access to Police, Women Helpline and Cyber Crime Helpline
+- Emergency SOS button
+- Audio recording
+- Send emergency alerts
+- Simple and user-friendly interface
+- Fast response during emergencies
 
 ## 🛠️ Technologies Used
-
 - Java
 - Android Studio
 - XML
-- Firebase Realtime Database
-- Google Maps API
-- Android Biometric API
-- Fused Location Provider
+- Gradle
 
+## 📂 Project Structure
+- app/
+- gradle/
+- build.gradle.kts
+- settings.gradle.kts
 
-## 🚀 Future Enhancements
+## 🚀 How to Run
+1. Clone this repository.
+2. Open the project in Android Studio.
+3. Sync Gradle.
+4. Run the application on an emulator or Android device.
 
-- 📷 Silent Attacker Photo Capture
-- 🌍 Real-Time Live Location Tracking
-- ☁️ Firebase Storage for Audio Recording
-- 📱 WhatsApp Emergency Alert
-- 🤖 AI-based Emergency Detection
+## 👨‍💻 Author
+Pranjal Hingmire
 
-## 👩‍💻 Developer
+## 📜 License
+This project is created for learning and educational purposes.
+## 📸 Screenshots
 
-**Pranjal Hingmire**
+### Home Screen
+![Home](screenshots/home_screen.png)
 
-Second Year Computer Science Engineering Student
+### Login Screen
+![Login](screenshots/login.png)
+
+### SMS Screen
+![SMS](screenshots/sms.png)
+
+### Audio Recording
+![Audio](screenshots/recording.png)
