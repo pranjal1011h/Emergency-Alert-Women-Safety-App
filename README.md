@@ -28,9 +28,6 @@ Emergency Alert system is an Android-based Women Safety Application developed. I
 - Android Biometric API
 - Fused Location Provider
 
-## 📸 Screenshots
-
-(Add screenshots here after uploading them.)
 
 ## 🚀 Future Enhancements
 
